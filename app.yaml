@@ -1,4 +1,5 @@
 # [START app_yaml]
-runtime: nodejs
+runtime: python27
+threadsafe: yes
 env: flex
 # [END app_yaml]
