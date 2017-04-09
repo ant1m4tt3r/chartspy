@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Gráficos</title>
+    <link rel='shortcut icon' href="{{url_for('static', filename='favicon.ico')}}" type='image/x-icon' />
+    <!-- jQuery -->
+    <script src="{{url_for('static', filename='js/jquery-3.1.1.min.js')}}"></script>
+    <!-- Bootstrap js -->
+    <script src="{{url_for('static', filename='js/bootstrap/bootstrap.min.js')}}"></script>
+    <!-- Highcharts -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <!-- scripts -->
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
+    <!--Font awesome -->
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+    <!-- Bootstrap css -->
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <!-- css -->
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 col-xs-12 no-padding">
+                    <div class="regular-space"></div>
+                    <div class="row">
+                        <p id="principal">
+                            Métricas
+                        </p>
+                    </div>
+                    <div class="regular-space"></div>
+                    <div class="row">
+                        <div class="col-md-12" style="min-width: 310px; height: 400px; margin: 0 auto">
+                            <div class="section-title">Palavras Descritoras</div>
+                            <div class="regular-space-min"></div>
+                            <div class="btn-group" data-toggle="buttons">
+                                <form>
+                                    <button id="column-words" class="chart-btn"><i class="fa fa-bar-chart" aria-hidden="true"></i> Drilldown</button>
+                                    <button id="bar-words" class="chart-btn"><i class="fa fa-area-chart" aria-hidden="true"></i> Barra</button>
+                                </form>
+                            </div>
+                            <div class="regular-space-min"></div>
+                            <div id="words-container"></div>
+
+                            <div class="regular-space-max"></div>
+                            <div class="section-title">Gênero</div>
+                            <div class="regular-space-min"></div>
+                            <div class="btn-group" data-toggle="buttons">
+                                <form>
+                                    <button id="pie-gender" class="chart-btn"><i class="fa fa-pie-chart" aria-hidden="true"></i> Pizza</button>
+                                    <button id="bar-gender" class="chart-btn"><i class="fa fa-bars" aria-hidden="true"></i> Barra</button>
+                                    <button id="column-gender" class="chart-btn"><i class="fa fa-bar-chart" aria-hidden="true"></i> Coluna</button>
+                                </form>
+                            </div>
+                            <div class="regular-space-min"></div>
+                            <div id="gender-container"></div>
+
+                            <div class="regular-space-max"></div>
+                            <div class="section-title">Dispositivo</div>
+                            <div class="regular-space-min"></div>
+                            <div class="btn-group" data-toggle="buttons">
+                                <form>
+                                    <button id="pie-device" class="chart-btn"><i class="fa fa-pie-chart" aria-hidden="true"></i> Pizza</button>
+                                    <button id="bar-device" class="chart-btn"><i class="fa fa-bars" aria-hidden="true"></i> Barra</button>
+                                    <button id="column-device" class="chart-btn"><i class="fa fa-bar-chart" aria-hidden="true"></i> Coluna</button>
+                                </form>
+                            </div>
+                            <div class="regular-space-min"></div>
+                            <div id="device-container"></div>
+
+                            <div class="regular-space-max"></div>
+                            <div class="section-title">Postagens</div>
+                            <div class="regular-space-min"></div>
+                            <div class="btn-group" data-toggle="buttons">
+                                <form>
+                                    <button id="area-post" class="chart-btn"><i class="fa fa-area-chart" aria-hidden="true"></i> Area</button>
+                                    <button id="column-post" class="chart-btn"><i class="fa fa-bar-chart" aria-hidden="true"></i> Coluna</button>
+                                </form>
+                            </div>
+                            <div class="regular-space-min"></div>
+                            <div id="post-container"></div>
+
+                            <div class="regular-space-max"></div>
+                            <div class="section-title">Publicadores</div>
+                            <div class="regular-space-min"></div>
+                            <div class="btn-group" data-toggle="buttons">
+                                <form>
+                                    <button id="pie-pub" class="chart-btn"><i class="fa fa-area-chart" aria-hidden="true"></i> Pizza</button>
+                                    <button id="column-pub" class="chart-btn"><i class="fa fa-bar-chart" aria-hidden="true"></i> Coluna</button>
+                                </form>
+                            </div>
+                            <div class="regular-space-min"></div>
+                            <div id="pub-container"></div>
+
+                            <div class="regular-space-max"></div>
+                            <div class="footer">
+                                <p>Made with { <i class="fa fa-coffee" aria-hidden="true"></i> } by <a href="https://hugoazevedosoares.github.io/" target="_blank">Hugo Azevedo</a></p>
+                            </div>
+                            <div class="regular-space-min"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

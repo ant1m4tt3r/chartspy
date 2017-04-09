@@ -1,0 +1,528 @@
+{
+  "channels": {
+    "InstagramComments": 1,
+    "Instagram": 15,
+    "Twitter": 131,
+    "YouTube": 17,
+    "FacebookComments": 3,
+    "Facebook": 15,
+    "News": 21,
+    "Feedly": 8
+  },
+  "talking_about": {
+    "device": [
+      [
+        {
+          "percentage": 99.52606635071089
+        }
+      ],
+      [
+        [
+          "Não Classificados",
+          1
+        ],
+        [
+          "Computador",
+          179
+        ],
+        [
+          "Celular/Tablet",
+          31
+        ]
+      ]
+    ],
+    "gender": [
+      [
+        {
+          "percentage": 61.68831168831169
+        }
+      ],
+      [
+        [
+          "Não Classificados",
+          59
+        ],
+        [
+          "Homem",
+          39
+        ],
+        [
+          "Marca",
+          27
+        ],
+        [
+          "Organização",
+          0
+        ],
+        [
+          "Mulher",
+          29
+        ]
+      ]
+    ],
+    "publishers": [
+      [
+        {
+          "percentage": 93.5064935064935
+        }
+      ],
+      [
+        [
+          "Comuns",
+          10
+        ],
+        [
+          "Animais de Estimação",
+          143
+        ],
+        [
+          "Animais de Estimação / Aquários",
+          22
+        ],
+        [
+          "Imprensa Social",
+          22
+        ],
+        [
+          "Notícias",
+          15
+        ],
+        [
+          "Sociedade / Serviços",
+          4
+        ],
+        [
+          "Marcas",
+          3
+        ],
+        [
+          "Sociedade",
+          3
+        ],
+        [
+          "Aeroporto / Linhas Aéreas",
+          3
+        ],
+        [
+          "Animais de Estimação / Gatos / Cães",
+          2
+        ],
+        [
+          "Tecnologia & Computação / Comércio Eletrônico",
+          1
+        ],
+        [
+          "Programas de TV / Séries",
+          1
+        ],
+        [
+          "Artes & Entretenimento",
+          1
+        ],
+        [
+          "Educação",
+          1
+        ],
+        [
+          "Animais de Estimação / Animais Selvagens",
+          1
+        ]
+      ]
+    ]
+  },
+  "general_sentiment": {
+    "positive_value": 62,
+    "negative_value": 31,
+    "neutral_value": 118,
+    "not_classified_value": 0
+  },
+  "posts_in_time": [
+    [
+      "total_posts",
+      211
+    ],
+    [
+      [
+        "2017/03/05 00:00",
+        2
+      ],
+      [
+        "2017/03/06 00:00",
+        6
+      ],
+      [
+        "2017/03/07 00:00",
+        8
+      ],
+      [
+        "2017/03/08 00:00",
+        1
+      ],
+      [
+        "2017/03/09 00:00",
+        4
+      ],
+      [
+        "2017/03/10 00:00",
+        4
+      ],
+      [
+        "2017/03/11 00:00",
+        1
+      ],
+      [
+        "2017/03/12 00:00",
+        1
+      ],
+      [
+        "2017/03/13 00:00",
+        4
+      ],
+      [
+        "2017/03/14 00:00",
+        9
+      ],
+      [
+        "2017/03/15 00:00",
+        4
+      ],
+      [
+        "2017/03/16 00:00",
+        12
+      ],
+      [
+        "2017/03/17 00:00",
+        7
+      ],
+      [
+        "2017/03/18 00:00",
+        6
+      ],
+      [
+        "2017/03/19 00:00",
+        1
+      ],
+      [
+        "2017/03/20 00:00",
+        49
+      ],
+      [
+        "2017/03/21 00:00",
+        18
+      ],
+      [
+        "2017/03/22 00:00",
+        4
+      ],
+      [
+        "2017/03/23 00:00",
+        17
+      ],
+      [
+        "2017/03/24 00:00",
+        13
+      ],
+      [
+        "2017/03/25 00:00",
+        2
+      ],
+      [
+        "2017/03/26 00:00",
+        0
+      ],
+      [
+        "2017/03/27 00:00",
+        6
+      ],
+      [
+        "2017/03/28 00:00",
+        5
+      ],
+      [
+        "2017/03/29 00:00",
+        16
+      ],
+      [
+        "2017/03/30 00:00",
+        6
+      ],
+      [
+        "2017/03/31 00:00",
+        3
+      ],
+      [
+        "2017/04/01 00:00",
+        0
+      ],
+      [
+        "2017/04/02 00:00",
+        1
+      ],
+      [
+        "2017/04/03 00:00",
+        1
+      ]
+    ]
+  ],
+  "despritors_in_posts": [
+    {
+      "total_polarity_classified": 78,
+      "name": "seekr",
+      "positive": 17,
+      "negative": 19,
+      "not_classified": 0,
+      "neutral": 42,
+      "total": 78
+    },
+    {
+      "total_polarity_classified": 41,
+      "name": "agorapulse",
+      "positive": 15,
+      "negative": 1,
+      "not_classified": 0,
+      "neutral": 25,
+      "total": 41
+    },
+    {
+      "total_polarity_classified": 24,
+      "name": "buzzmonitor",
+      "positive": 6,
+      "negative": 6,
+      "not_classified": 0,
+      "neutral": 12,
+      "total": 24
+    },
+    {
+      "total_polarity_classified": 22,
+      "name": "scup",
+      "positive": 8,
+      "negative": 2,
+      "not_classified": 0,
+      "neutral": 12,
+      "total": 22
+    },
+    {
+      "total_polarity_classified": 19,
+      "name": "stilingue",
+      "positive": 7,
+      "negative": 2,
+      "not_classified": 0,
+      "neutral": 10,
+      "total": 19
+    },
+    {
+      "total_polarity_classified": 13,
+      "name": "opsocial",
+      "positive": 6,
+      "negative": 0,
+      "not_classified": 0,
+      "neutral": 7,
+      "total": 13
+    },
+    {
+      "total_polarity_classified": 9,
+      "name": "sproutsocial",
+      "positive": 4,
+      "negative": 0,
+      "not_classified": 0,
+      "neutral": 5,
+      "total": 9
+    },
+    {
+      "total_polarity_classified": 7,
+      "name": "monitoramento",
+      "positive": 4,
+      "negative": 0,
+      "not_classified": 0,
+      "neutral": 3,
+      "total": 7
+    },
+    {
+      "total_polarity_classified": 5,
+      "name": "paessler",
+      "positive": 2,
+      "negative": 0,
+      "not_classified": 0,
+      "neutral": 3,
+      "total": 5
+    },
+    {
+      "total_polarity_classified": 4,
+      "name": "prtg network monitor",
+      "positive": 1,
+      "negative": 0,
+      "not_classified": 0,
+      "neutral": 3,
+      "total": 4
+    },
+    {
+      "total_polarity_classified": 3,
+      "name": "crimson hexagon",
+      "positive": 0,
+      "negative": 1,
+      "not_classified": 0,
+      "neutral": 2,
+      "total": 3
+    },
+    {
+      "total_polarity_classified": 1,
+      "name": "socialfigures",
+      "positive": 1,
+      "negative": 0,
+      "not_classified": 0,
+      "neutral": 0,
+      "total": 1
+    },
+    {
+      "total_polarity_classified": 1,
+      "name": "livebuzz",
+      "positive": 1,
+      "negative": 0,
+      "not_classified": 0,
+      "neutral": 0,
+      "total": 1
+    },
+    {
+      "total_polarity_classified": 1,
+      "name": "dinamize",
+      "positive": 1,
+      "negative": 0,
+      "not_classified": 0,
+      "neutral": 0,
+      "total": 1
+    },
+    {
+      "total_polarity_classified": 1,
+      "name": "zubit",
+      "positive": 0,
+      "negative": 0,
+      "not_classified": 0,
+      "neutral": 1,
+      "total": 1
+    }
+  ],
+  "subject_matrix": [
+    {
+      "name": "Scup",
+      "children": [
+        {
+          "percentage": 4.3478260869565215,
+          "percentage_global": 0.23752969121140144,
+          "terms": [
+            "Olho"
+          ],
+          "name": "Emoji",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Buzzmonitor",
+      "children": [
+        {
+          "percentage": 4.166666666666666,
+          "percentage_global": 0.23752969121140144,
+          "terms": [
+            "Medo"
+          ],
+          "name": "Emoji",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Crimson Hexagon",
+      "children": [
+        {
+          "percentage": 0,
+          "percentage_global": 0,
+          "name": "Emoji",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "SocialFigures",
+      "children": [
+        {
+          "percentage": 3.015075376884422,
+          "percentage_global": 1.4251781472684086,
+          "terms": [
+            "Realidade Do Dia A Dia",
+            "Banco De Respostas",
+            "Brasil",
+            "Parceria De Inteligencia",
+            "Oferta No Blog"
+          ],
+          "name": "Emoji",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "AgoraPulse",
+      "children": [
+        {
+          "percentage": 2.3255813953488373,
+          "percentage_global": 0.23752969121140144,
+          "terms": [
+            "Mktdigital Scup Monitoramento"
+          ],
+          "name": "Emoji",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Paessler",
+      "children": [
+        {
+          "percentage": 0,
+          "percentage_global": 0,
+          "name": "Emoji",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Seekr",
+      "children": [
+        {
+          "percentage": 1.282051282051282,
+          "percentage_global": 0.23752969121140144,
+          "terms": [
+            "Oferta No Blog"
+          ],
+          "name": "Emoji",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Outras",
+      "children": [
+        {
+          "percentage": 0,
+          "percentage_global": 0,
+          "name": "Emoji",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Stilingue",
+      "children": [
+        {
+          "percentage": 15.789473684210526,
+          "percentage_global": 0.7125890736342043,
+          "terms": [
+            "Brasil",
+            "Inteligencia Artificial"
+          ],
+          "name": "Emoji",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}
