@@ -1,5 +1,4 @@
 # [START app_yaml]
-application: chartspy-164120
 runtime: python27
 threadsafe: yes
 api_version: 1
