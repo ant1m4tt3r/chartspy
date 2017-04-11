@@ -8,4 +8,9 @@ handlers:
   static_dir: static
 - url: /.*
   script: main.app
+
+libraries:
+- name: flask
+  version: "0.12"
+
 # [END app_yaml]
